@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{6BC38DF7-12D3-4C9A-B5FC-CD05F6B88EE7}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source files\GuiEngine">
+      <UniqueIdentifier>{22DB4A70-B25D-462B-93EF-AB7D3372292A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GuiEngine\custom">
+      <UniqueIdentifier>{781DEFEE-D43C-4323-9A84-57C81BC3BDD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\RustSDK">
+      <UniqueIdentifier>{77EBC47F-6881-4AD7-8AC0-3B9680183C66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\RustSDK\aim">
+      <UniqueIdentifier>{9C4BF392-6D82-4513-9506-5C15F670EF73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\RustSDK\esp">
+      <UniqueIdentifier>{436ACA42-0D8F-46C8-8309-205AC8B2C5EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\imgui">
+      <UniqueIdentifier>{A6329DE4-ED11-48DF-BE9B-7BA85223EECB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\source">
+      <UniqueIdentifier>{30A856F5-00EA-445E-A320-B5709A871A5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\source\cpp">
+      <UniqueIdentifier>{D4B35C9B-AB82-47CB-A6DA-FEECBF05868B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\source\headers">
+      <UniqueIdentifier>{8CDA7666-1BB2-4A9D-A8A4-3FF8CE49F42B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\socket">
+      <UniqueIdentifier>{F960E278-1939-4B90-A427-9E7ECFB2C87E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\vars">
+      <UniqueIdentifier>{D67A3FED-7442-4702-BA5E-2B8C32BEFC6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ioctlDriver">
+      <UniqueIdentifier>{EF7AAFA4-EF85-42BA-8DBE-A3169F000371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\tools">
+      <UniqueIdentifier>{81926287-D7A3-408F-9D81-1A42DC676317}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Source files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Source files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>Source files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>Source files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Source files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Source files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiEngine\GuiEngine_Esp.cpp">
+      <Filter>Source files\GuiEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="custom_elements.cpp">
+      <Filter>Source files\GuiEngine\custom</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\socket.cpp">
+      <Filter>Source files\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiEngine\GuiEngine_Menu.cpp">
+      <Filter>Source files\GuiEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiEngine\GuiGlobalVar.cpp">
+      <Filter>Source files\GuiEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source files\source\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\tools.cpp">
+      <Filter>Source files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="rustSDK\draw.cpp">
+      <Filter>Source files\RustSDK\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="ioctlDriver\driverRW.cpp">
+      <Filter>Source files\ioctlDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="aim.cpp">
+      <Filter>Source files\RustSDK\aim</Filter>
+    </ClCompile>
+    <ClCompile Include="rustSDK\vars.cpp">
+      <Filter>Source files\vars</Filter>
+    </ClCompile>
+    <ClCompile Include="rustSDK\loops.cpp">
+      <Filter>Source files\RustSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="threads.cpp">
+      <Filter>Source files\source\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="rustSDK\RustSDK.cpp">
+      <Filter>Source files\RustSDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Source files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Source files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>Source files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>Source files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Source files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Source files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Source files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Source files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Source files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="custom_elements.h">
+      <Filter>Source files\GuiEngine\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="ioctlDriver\driverRW.h">
+      <Filter>Source files\ioctlDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="rustSDK\RustSDK.h">
+      <Filter>Source files\RustSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\tools.h">
+      <Filter>Source files\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="rustSDK\offsets.h">
+      <Filter>Source files\vars</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiEngine\GuiEngine.h">
+      <Filter>Source files\GuiEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="rustSDK\draw.h">
+      <Filter>Source files\RustSDK\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\socket.h">
+      <Filter>Source files\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="aim.h">
+      <Filter>Source files\RustSDK\aim</Filter>
+    </ClInclude>
+    <ClInclude Include="rustSDK\vars.h">
+      <Filter>Source files\vars</Filter>
+    </ClInclude>
+    <ClInclude Include="rustSDK\loops.h">
+      <Filter>Source files\RustSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="threads.h">
+      <Filter>Source files\source\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="myMath.h">
+      <Filter>Source files\source\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui\imgui.ini">
+      <Filter>Source files\imgui</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\d3dx11.lib" />
+  </ItemGroup>
+</Project>
